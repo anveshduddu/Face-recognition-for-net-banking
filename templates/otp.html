@@ -1,0 +1,40 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>transaction Form</title>
+	<link rel="stylesheet" href ="https://use.fontawesome.com/releases/v5.4.2/css/all.css" >
+	<link rel="stylesheet"href ="{{ url_for('static', filename='transaction.css') }}" >
+
+</head>
+<body style="background-color: skyblue">
+
+
+
+<div class="wrapper">
+  <div class="payment">
+
+    <div class="form">
+
+
+        <form action='/validateOTP' method="POST">
+         <div class="card space icon-relative">
+        <label class="label">Enter OTP</label>
+        <input type="text" class="input" name="otp" placeholder="enter otp">
+      </div>
+
+<button class="btn" type="submit" style="padding: 10px; padding-left: 120px;padding-right: 120px;">Submit</button>
+</form>
+    </div>
+  </div>
+</div>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>transaction Form</title>
+	<link rel="stylesheet" href ="https://use.fontawesome.com/releases/v5.4.2/css/all.css" >
+	<link rel="stylesheet"href ="{{ url_for('static', filename='transaction.css') }}" >
+
+</head>
+<body>
+	
+
+
+<div class="wrapper">
+  <div class="payment">
+   
+    <div class="form">
+      <div class="card space icon-relative">
+        <label class="label">Account Number:</label>
+        <input type="text" class="input" placeholder="Account Number">
+        <i class="fas fa-user"></i>
+      </div>
+      <div class="card space icon-relative">
+        <label class="label">Enter Amount:</label>
+        <input type="text" class="input" name="amount" placeholder="Amount">
+        <i class="fas fa-rupee-sign"></i>
+      </div>
+        <form action='/getOTP' method="POST">
+         <div class="card space icon-relative">
+        <label class="label">Enter Mobile Number</label>
+        <input type="text" class="input" name="number" placeholder="number">
+      </div>
+      <div class="card-grp space">
+        <div class="card-item icon-relative">
+          <label class="label">Remarks</label>
+          <input type="text" name="expiry-data" class="input" >
+          
+        </div>
+      </div>
+<button class="btn" type="submit" style=" padding: 10px;padding-left: 130px;padding-right: 121px;">Submit</button>
+</form>
+    </div>
+  </div>
+</div>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+
+</body>
+</html>

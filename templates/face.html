@@ -1,0 +1,46 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Face-detection</title>
+<style>
+.container {
+  height: 700px;
+  position: relative;
+  border: 3px solid coral;
+}
+.suc{
+    background-color: transparent;
+    color: blueviolet;
+    border-color: blueviolet;
+    float: right;
+    margin-top : 690px;
+  bottom: 10px;
+}
+
+.fail{
+    background-color: transparent;
+    color: blueviolet;
+    border-color: blueviolet;
+    margin-top : 690px;
+}
+</style>
+</head>
+<body style="background-color: #8a2be2;">
+
+    <form action='/otp1' method="POST">
+        <div class="container">
+        <div class="vertical-center">
+        <img src="{{ url_for('video_feed') }}" />
+        <button type="submit" class="suc"> </button>
+        <button  onclick="window.location.href='/fail'" class="fail"></button>
+
+        </div>
+        </div>
+    </form>
+
+
+</body>
+</html>

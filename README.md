@@ -9,7 +9,7 @@ With increased online transactions, the risk of frauds has been increased. Card 
 Face authentication is the way of authenticating based on the physiological or chemical traits of a person. These traits will be unique for each individual. As they can never be stolen or replicated, they prevent dictionary attacks (It is a way of trying hundreds and sometimes even millions of combinations as in a dictionary so as to find the correct one), phishing attacks (fraudulent acts that try to acquire our personal information by gaining faith in us) etc. While making online payments transaction from one user account to another user, the online banking is always concerned about the hackers and fraudulent persons. 
 
 <h3 align="left">Connect with me:</h3>
-<p align="left" color:"#933ded";>
+<p align="left" style="color:#933ded">
 <a href="https://twitter.com/dudduanvesh" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="dudduanvesh" height="30" width="40" /></a>
 <a href="https://www.linkedin.com/in/anvesh-duddu-866b531a6/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="anvesh duddu" height="30" width="40" /></a>
 <a href="https://fb.com/anvesh.duddu" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/facebook.svg" alt="anvesh duddu" height="30" width="40" /></a>
